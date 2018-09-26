@@ -10,8 +10,13 @@ Documentaton available via SWAGGER
 **display request data** <br>
 ![Alt Text](ss3.PNG)
 
-**tech** <br>
-Springboot with MongoDB + JWT
+**Tech** <br>
+Springboot with MongoDB + JWT<br>
+Redis Caching in Details Product 
+
+**Requirement** <br>
+MongoDB Server <br>
+Redis Server
 
 **How to use** <br>
 1. setting DB in the application.yml in resource

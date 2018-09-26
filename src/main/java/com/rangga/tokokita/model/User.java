@@ -14,6 +14,7 @@ import javax.validation.Valid;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;
+import java.time.LocalDate;
 import java.util.Date;
 import java.util.List;
 
@@ -29,6 +30,8 @@ public class User {
     @NotNull
     private String email;
 
+    @NotNull
+    private LocalDate birthdate;
 
     @Length(min = 3)
     private String password;
@@ -39,6 +42,14 @@ public class User {
     private List<Card> cards;
 
     private Date created_at;
+
+    public void setBirthdate(LocalDate birthdate) {
+        this.birthdate = birthdate;
+    }
+
+    public LocalDate getBirthdate() {
+        return birthdate;
+    }
 
     public void setCreated_at(Date created_at) {
         this.created_at = created_at;

@@ -10,7 +10,6 @@ public class ValidationExceptionResponse extends ExceptionResponse {
     public ValidationExceptionResponse(Date timestamp, String message, String detail,List<String> errors) {
         super(timestamp, message, detail);
         this.errors = errors;
-
     }
 
     public List<String> getErrors() {

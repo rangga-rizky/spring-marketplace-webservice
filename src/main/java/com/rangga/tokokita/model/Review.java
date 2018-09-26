@@ -5,10 +5,11 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 import javax.validation.constraints.Max;
 import javax.validation.constraints.Min;
+import java.io.Serializable;
 import java.time.LocalDateTime;
 
 @Document(collection = "reviews")
-public class Review {
+public class Review implements Serializable {
 
     @Id
     private String _id;

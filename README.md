@@ -1,6 +1,8 @@
 # spring-marketplace-webservice
 Springboot Marketplace Web service with MongoDB
 
+available online http://parola.site:8080/swagger-ui.html
+
 Documentaton available via SWAGGER
 ![Alt Text](ss1.PNG)
 ![Alt Text](ss2.PNG)
